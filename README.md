@@ -191,7 +191,7 @@ Level: Pemula
         "status": "fail",
         "message": "Gagal memperbarui buku. Mohon isi nama buku"
     }
- ```
+```
 3. Client melampirkan nilai properti readPage yang lebih besar dari nilai properti pageCount. Bila hal ini terjadi, maka server akan merespons dengan: <br/>
     Status Code : 400 <br/>
     Response Body: <br/>
@@ -233,7 +233,6 @@ Level: Pemula
         "message": "Buku gagal dihapus. Id tidak ditemukan"
     }
 ```
-\
 3. Bila id dimiliki oleh salah satu buku, maka buku tersebut harus dihapus dan server mengembalikan respons berikut: <br/>
     Status Code : 200 <br/>
     Response Body: <br/>
